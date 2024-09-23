@@ -274,11 +274,13 @@ section .title::after{
     content: "what we provide";
 }
 .services .serv-content .card{
+    margin-top:30px;
+    /* height: 400px; */
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 50px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -380,9 +382,9 @@ section .title::after{
     width: 100%;
 }
 
-/* teams section styling */
+/* Our Client section styling */
 .teams .title::after{
-    content: "Committed to Delivering Excellence Experience!";
+    content: "Excellence";
 }
 .teams .carousel .card{
     background: #222;
@@ -446,7 +448,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "Your Questions Matter - Get in Touch with Us!";
+    content: "Questions ?";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -464,7 +466,7 @@ section .title::after{
 
 
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -491,7 +493,10 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+
 }
+
+
 .contact .right form .fields{
     display: flex;
 }
